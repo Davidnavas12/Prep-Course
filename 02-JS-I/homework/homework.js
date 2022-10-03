@@ -96,6 +96,10 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  if ( num < 90 )
+    return true
+  else 
+    return false
 }
 
 function mayorQueCincuenta(num) {
@@ -103,18 +107,26 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  if ( num > 50 )
+    return true
+  else
+    return false
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   
+  return x % y
+
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  
   
 }
 
