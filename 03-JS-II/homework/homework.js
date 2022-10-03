@@ -26,8 +26,7 @@ function mayoriaDeEdad(edad) {
     return 'Allowed'
 
   else ( edad < 18 )
-  
-  return 'Not allowed'
+    return 'Not allowed'
   
 }
   
