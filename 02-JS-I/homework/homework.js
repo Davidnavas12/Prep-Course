@@ -38,7 +38,7 @@ function suma(x, y) {
   // Tu código:
   
   var suma = x + y
-  return suma
+    return suma
 }
 
 function resta(x, y) {
@@ -46,7 +46,7 @@ function resta(x, y) {
   // Tu código:
   
   var resta = x - y
-  return resta 
+    return resta 
 
 }
 
@@ -55,7 +55,7 @@ function multiplica(x, y) {
   // Tu código:
 
   var multiplicacion = x * y
-  return multiplicacion
+    return multiplicacion
   
 }
 
@@ -64,7 +64,7 @@ function divide(x, y) {
   // Tu código:
   
   var division = x / y
-  return division 
+    return division 
 }
 
 function sonIguales(x, y) {
@@ -73,9 +73,9 @@ function sonIguales(x, y) {
   // Tu código:
   
   if (x === y)
-  return true
+    return true
   else 
-  return false
+    return false
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -84,10 +84,10 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   
   if ( str1.length === str2.length )
-  return true
+    return true
   
   else
-  return false
+   return false
 
 }
 
