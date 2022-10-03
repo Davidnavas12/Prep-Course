@@ -174,6 +174,8 @@ function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   
+  let resultado = Math.round (num)
+    return resultado
 }
 
 function redondearHaciaArriba(num) {
