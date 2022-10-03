@@ -157,7 +157,7 @@ function elevarAlCubo(num) {
   // Tu código:
   
   var nuevoNum = Math.pow (num, 3)
-  return nuevoNum
+   return nuevoNum
   
 }
 
@@ -166,7 +166,7 @@ function elevar(num, exponent) {
   // Tu código:
 
   var nuevoNum = Math.pow (num, exponent)
-  return nuevoNum
+    return nuevoNum
   
 }
 
