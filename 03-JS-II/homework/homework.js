@@ -37,10 +37,10 @@ function conection(status) {
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
 
-  if ( status == 1)
+  if ( status === 1)
     return 'Online'
 
-  else if (status ==2)
+  else if (status ===2)
     return 'Away'
     
   else 
@@ -56,11 +56,11 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
 
-  if ( idioma == 'aleman')
+  if ( idioma === 'aleman')
     return 'Guten Tag!'
-  else if  ( idioma == 'mandarin')
+  else if  ( idioma === 'mandarin')
     return 'Ni Hao!'
-  else if  ( idioma == 'ingles')
+  else if  ( idioma === 'ingles')
     return 'Hello!'
   else 
     return 'Hola!'   
@@ -75,16 +75,16 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
 
-  if ( color == 'blue')
+  if ( color === 'blue')
     return 'This is blue'
 
-  else if ( color == 'red')
+  else if ( color === 'red')
     return 'This is red'  
 
-  else if ( color == 'green')
+  else if ( color === 'green')
     return 'This is green'
 
-  else if ( color == 'orange')
+  else if ( color === 'orange')
     return 'This is orange'
 
   else
@@ -97,7 +97,7 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  if (numero == 10 || numero == 5)
+  if (numero === 10 || numero === 5)
     return true
 
   else 
@@ -164,7 +164,7 @@ function operadoresLogicos(num1, num2, num3) {
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
 
-  if (num1 == 0 || num2 == 0 || num3 == 0)
+  if (num1 === 0 || num2 === 0 || num3 === 0)
     return 'Error'
 
   else if  (num1 < 0 || num2 < 0 || num3 < 0 ) 
