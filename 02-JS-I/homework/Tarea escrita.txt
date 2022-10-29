@@ -1,0 +1,1 @@
+Una variable es cualquier conjunto de caracteres que esté entre comillas, por ejemplo:  ´David´

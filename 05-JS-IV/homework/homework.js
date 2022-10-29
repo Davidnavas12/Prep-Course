@@ -6,6 +6,9 @@ function crearGato (nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
+
+
+
 }
 
 function agregarPropiedad (objeto, property) {
@@ -47,6 +50,11 @@ function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
+
+  if ( usuario = {email} )  
+    return true
+
+    else false
 }
 
 function tienePropiedad (objeto, propiedad) {
