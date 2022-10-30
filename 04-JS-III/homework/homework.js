@@ -228,7 +228,7 @@ function mesesDelAño(array) {
 
   var newarray = []
 
-    for (var i = 0 ; i < array.length-1 ; i++) 
+    for (var i = 0 ; i < array.length ; i++) 
 
         if (array[i]=== 'Enero' || array[i]=== 'Marzo' || array[i]=== 'Noviembre'){
         newarray.push(array[i])
@@ -245,6 +245,14 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
+
+  var newarray = []
+
+    for (var i = 0 ; i < array.length ; i++) 
+      if (array[i]> 100) {
+      newarray.push(array[i])
+      }
+    return newarray    
 }
 
 
@@ -256,6 +264,8 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+
+  
 }
 
 
