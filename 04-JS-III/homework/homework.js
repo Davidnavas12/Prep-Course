@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { skipValidation } = require("yargs")
+
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
@@ -31,7 +33,10 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
 
-  return (array + 1) 
+
+ for (var i = 0; i < array.length; i++)
+  console.log(array [i] +  1)
+
 
 }
 
@@ -53,6 +58,9 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Pista: usa el método `.unshift`
   // Tu código:
 
+  array.unshift (elemento)
+
+  return array 
   
 }
 
@@ -64,7 +72,7 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
 
-  return palabras [0] + (' ') + [1] 
+  return (palabras.join(' '))
 
 }
 
@@ -73,6 +81,12 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+
+  array[elemento]
+  return true
+  
+  
+
 }
 
 
@@ -103,6 +117,8 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+
+
 }
 
 
@@ -143,6 +159,8 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+
+
 }
 
 
