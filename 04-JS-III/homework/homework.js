@@ -250,7 +250,7 @@ function mayorACien(array) {
 
     for (var i = 0 ; i < array.length ; i++) 
       if (array[i]> 100) {
-        
+
       newarray.push(array[i])
       }
     return newarray    
@@ -266,7 +266,18 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
 
+  var newarray = []
+  var suma = numero
 
+    for (var i = 0 ; i < 10 ; i++) {
+      suma = suma + 2
+      if (suma === i) break 
+      else newarray.push (suma)
+    }
+      if (i<10) {
+      return 'Se interrumpió la ejecución'
+      }
+   else return newarray
 }
 
 
