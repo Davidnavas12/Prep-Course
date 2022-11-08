@@ -296,7 +296,7 @@ function continueStatement(numero) {
       if (i === 5 ) continue
       suma = suma + 2
       newarray.push (suma)
-
+ 
     }
     return newarray
 }
